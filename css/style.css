@@ -24,6 +24,9 @@ img {
     border: 5px;
     border-color: green;
     border-style: solid;
+    width: 30%;
+    height: 50%;
+    border: 1px solid black;
     padding: 10px;
     margin: 20px;
     border-top-right-radius: 30px;
@@ -31,4 +34,32 @@ img {
 li {
     display: inline-block;
     margin-left: 50px;
+}
+footer {
+    width: 100px;
+    height: 50px;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 5px;
+}
+nav {
+    border: 2px solid black;
+}
+nav a {
+    background-color: yellow;
+    padding: 5px;
+    margin:20px;
+}
+a {
+    text-align: underline;
+    border: solid blue;
+}
+#skip{
+    /*text-transform: uppercase; */
+    position: absolute;
+    left: -500px;
+}
+#skip:focus{
+    /*text-transform: uppercase; */
+    left: 600px;
 }
